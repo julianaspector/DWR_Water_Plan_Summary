@@ -5,4 +5,4 @@ Data was provided by DWR in one workbook with sheets for each year of water use 
 Water supply data throughout the state was analyzed to determine average Sacramento River/Delta supplies entering and leaving different hydrologic regions for 1998-2015 and 2005-2015. Calculations were based on DWR's regional inflows and outflows conceptual diagram. 
 
 ![alt text][logo]
-[logo]:  https://github.com/julianaspector/DWR_Water_Plan_Summary/blob/master/Images/2014_regional_inflow_outflow_map.pdf "2014 Regional Inflows Outflows Diagram"
+[logo]:  https://github.com/julianaspector/DWR_Water_Plan_Summary/blob/master/Images/2014_regional_inflow_outflow_map.png "2014 Regional Inflows Outflows Diagram"
