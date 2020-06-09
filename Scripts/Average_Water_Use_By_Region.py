@@ -2,7 +2,7 @@
 import pandas as pd
 
 # make this data available in same directory as script
-data = pd.read_csv('Cleaned_Data.csv', usecols=range(1,12))
+data = pd.read_csv('Cleaned_Data_based_on_2018_Update.csv', usecols=range(1,12))
 pa_region_lookup = pd.read_csv('PA_Region_Lookup_Table.csv', usecols=range(1,3))
 
 cols = list(data.columns.values)

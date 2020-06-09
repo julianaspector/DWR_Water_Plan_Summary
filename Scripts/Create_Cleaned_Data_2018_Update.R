@@ -1,11 +1,9 @@
 library(openxlsx)
 library(dplyr)
 
-setwd('S:/DWR/VOL1/BayDeltaDRV/Public Trust Unit/Work Projects/P2_General/California Water Plan Statistics')
-
 
 data <- NULL
-
+# make data available in same directory as script
 for (i in 11:21){
   data <- bind_rows(data, read.xlsx(xlsxFile='2002-2015_GW_CO_PA_SUMMARY_10-02-18_ver4.xlsx',
                                     sheet=i,

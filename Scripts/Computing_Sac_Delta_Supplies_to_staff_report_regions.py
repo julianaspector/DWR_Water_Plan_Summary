@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 pd.options.display.float_format = '{:.0f}'.format # display numbers as integers
 
-# import data and lookup table for planning areas/regions
+# import data and lookup table for planning areas/regions, make data available in same directory as script
 data = pd.read_csv('Data_Regional_Exports_Imports_20200415.csv', skiprows=2,
                   usecols=[2,5,7,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26],
                   nrows=46)
